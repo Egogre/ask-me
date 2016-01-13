@@ -1,0 +1,21 @@
+{
+  "name": "ask-the-audience",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "George Hudson",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "express": "^4.13.3",
+    "lodash": "^4.0.0",
+    "socket.io": "^1.4.4"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "nodemon": "^1.8.1"
+  }
+}
