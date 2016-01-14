@@ -2,19 +2,24 @@
 <html>
   <head>
     <title>Ask the Audience</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
     <div id="page-wrap">
-      <div id="status-message"></div>
-      <div id="connection-count"></div>
+      <br>
+      <h1 id="status-message"></h1>
+      <h3 id="connection-count"></h3>
+      <br>
       <div id="choices">
+        <h2>Please Vote For Your Favorite Letter:</h2>
         <button>A</button>
         <button>B</button>
         <button>C</button>
         <button>D</button>
       </div>
-      <div id="user-vote"></div>
-      <div id="vote-tally"></div>
+      <br>
+      <h2 id="user-vote"></h2>
+      <h1 id="vote-tally"></h1>
       <!-- Make sure your JS is at the bottom of the body! -->
       <script src="/socket.io/socket.io.js"></script>
       <script src="/client.js"></script>

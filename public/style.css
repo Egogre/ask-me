@@ -1,3 +1,37 @@
+body {
+  background-color: lightblue;
+}
+
+button {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#a8d7f7), to(#65a9d7));
+   background: -webkit-linear-gradient(top, #a8d7f7, #65a9d7);
+   background: -moz-linear-gradient(top, #a8d7f7, #65a9d7);
+   background: -ms-linear-gradient(top, #a8d7f7, #65a9d7);
+   background: -o-linear-gradient(top, #a8d7f7, #65a9d7);
+  color: white;
+   font-size: 48px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+}
+
+button:focus {
+  outline: 0pt;
+  box-shadow: 0 0 0 3pt white;
+  background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#a9f7a8), to(#148212));
+   background: -webkit-linear-gradient(top, #a9f7a8, #148212);
+   background: -moz-linear-gradient(top, #a9f7a8, #148212);
+   background: -ms-linear-gradient(top, #a9f7a8, #148212);
+   background: -o-linear-gradient(top, #a9f7a8, #148212);
+}
+
+
 #page-wrap {
-  
+  width: 100%;
+  text-align: center;
 }

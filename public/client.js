@@ -7,7 +7,7 @@ var userVote = document.getElementById('user-vote');
 var buttons = document.querySelectorAll('#choices button');
 
 socket.on('usersConnected', function (count) {
-  connectionCount.innerText = 'Connected Users: ' + count;
+  connectionCount.innerText = 'Total Connected Users: ' + count;
 });
 
 socket.on('statusMessage', function (message) {
